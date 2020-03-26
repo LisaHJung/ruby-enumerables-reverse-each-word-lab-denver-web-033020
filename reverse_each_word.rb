@@ -1,3 +1,23 @@
+def reverse_each_word (string)
+  string.each{|sentence| sentence.reverse}
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 =begin
 def reverse_each_word (string)
   array_string= string.split(" ")
