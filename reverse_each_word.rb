@@ -3,9 +3,8 @@ def reverse_each_word (string)
   array_string = string.split(" ")
   new_array =[]
   new_array = array_string.each { |word| word.reverse}
-  binding.pry
   new_array.join(" ")
-  
+  binding.pry
 end
 
 
